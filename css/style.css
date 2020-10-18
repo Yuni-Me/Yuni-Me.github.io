@@ -3,6 +3,10 @@
 Primary style
 
 -------------------------------- */
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-Regular.ttf");
+}
 *,
 *::after,
 *::before {
@@ -412,7 +416,6 @@ a {
   font-size: 0.8em;
   padding: 0.9em;
   padding-bottom: 0;
-  margin: 0.8em;
   margin-bottom: 0;
 }
 #projects-content .info p {
@@ -869,7 +872,7 @@ input[type="reset"] {
     font-size: 1.5em;
   }
   .about ul {
-    width: 70%;
+    width: 75%;
     padding: 15px;
   }
   .about li {
@@ -982,7 +985,7 @@ input[type="reset"] {
     height: 240px;
   }
   .about ul {
-    width: 50%;
+    width: 75%;
     padding: 20px;
   }
   #projects-content .lineContainer .project-line {
@@ -1029,7 +1032,7 @@ input[type="reset"] {
     height: 270px;
   }
   .about ul {
-    width: 30%;
+    width: 40%;
   }
   .about hr {
     width: 25%;
